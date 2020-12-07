@@ -1,0 +1,242 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ .body-bg {
+	background: #501F3A;
+}
+/*--------------------------------------------------------------
+# Feature-box
+--------------------------------------------------------------*/
+.navbar {
+	background: #0F292F;
+	padding: 15px 10px;
+}
+
+.navbar .navbar-brand {
+	color: #14A098;
+	margin-left: 25px;
+	font-weight: 700;
+}
+/*--------------------------------------------------------------
+# Feature-box
+--------------------------------------------------------------*/
+.features-clean {
+  color: #313437;
+  background-color: #C4C4C4;
+}
+
+.features ion-icon {
+	font-size: 30px;
+	color: #CB2D6F;
+}
+@media (max-width:767px) {
+  .features-clean {
+    padding-bottom: 10px;
+  }
+}
+
+.features-clean p {
+  color: #14A098;
+  font-weight: 700;	
+}
+
+.features-clean h2 {
+  font-weight: bold;
+  padding-top: 40px;
+  color: #6F7A85;
+}
+
+@media (max-width:767px) {
+  .features-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width:767px) {
+  .features-clean .intro {
+    margin-bottom: 40px;
+  }
+}
+
+.features-clean .item {
+  min-height: 100px;
+  padding-left: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+  .features-clean .item {
+    min-height: 0;
+  }
+}
+
+.features-clean .item .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.features-clean .item .description {
+  font-size: 15px;
+  display: inline;
+  margin-bottom: 0;
+}
+
+.features-clean .item .icon {
+  font-size: 40px;
+  color: #1485ee;
+  float: left;
+  margin-left: -65px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Log-In
+--------------------------------------------------------------*/
+.login-clean {
+  background: #C4C4C4;
+  padding: 80px 0;
+}
+
+.login-clean form {
+  max-width: 320px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 4px;
+  
+  
+}
+
+.login-clean .illustration {
+  text-align: center;
+  padding: 0 0 20px;
+  font-size: 100px;
+  color: #CB2D6F;
+}
+
+.login-clean form .form-control {
+  background: #501F3A;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: #14A098;
+  text-indent: 8px;
+  height: 42px;
+}
+
+.login-clean form .btn-primary {
+  background: #CB2D6F;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  color: #14A098;
+  font-weight: 700;	
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.login-clean form .btn-primary:hover, .login-clean form .btn-primary:active {
+  background: #CB2D6F;
+}
+
+.login-clean form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.login-clean form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-clean form .forgot:hover, .login-clean form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Check-box
+--------------------------------------------------------------*/
+.welcome-form {
+	background: #501F3A;
+	color: #fff;
+	font-size: 20px;
+}
+.welcome h1 {
+	font-size: 50px;
+	color: #fff;
+}
+
+.welcome p {
+	font-size: 25px;
+	color: #14A098;
+}
+form .checkbox .option{
+      display: inline-block;
+	  max-width: 150px;
+}
+
+/*--------------------------------------------------------------
+# Mentor-Mentee
+--------------------------------------------------------------*/
+.m-m {
+	background: #501F3A;
+	color: #fff;
+}
+
+.next {
+	padding: 10px 20px;
+	float: right;
+	font-size: 20px;
+}
+
+.next a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.next ion-icon {
+	color: black;
+	
+}
+
+.prev {
+	float: left;
+	padding: 10px 20px;
+	font-size: 20px;
+	position: relative;
+	top: 120px;
+}
+
+.prev a {
+	text-decoration: none;
+	color: white;
+}
+
+.prev ion-icon {
+	color: black;
+}
