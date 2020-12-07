@@ -177,3 +177,66 @@
   opacity: 1;
   text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+# Check-box
+--------------------------------------------------------------*/
+.welcome-form {
+	background: #501F3A;
+	color: #fff;
+	font-size: 20px;
+}
+.welcome h1 {
+	font-size: 50px;
+	color: #fff;
+}
+
+.welcome p {
+	font-size: 25px;
+	color: #14A098;
+}
+form .checkbox .option{
+      display: inline-block;
+	  max-width: 150px;
+}
+
+/*--------------------------------------------------------------
+# Mentor-Mentee
+--------------------------------------------------------------*/
+.m-m {
+	background: #501F3A;
+	color: #fff;
+}
+
+.next {
+	padding: 10px 20px;
+	float: right;
+	font-size: 20px;
+}
+
+.next a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.next ion-icon {
+	color: black;
+	
+}
+
+.prev {
+	float: left;
+	padding: 10px 20px;
+	font-size: 20px;
+	position: relative;
+	top: 120px;
+}
+
+.prev a {
+	text-decoration: none;
+	color: white;
+}
+
+.prev ion-icon {
+	color: black;
+}
