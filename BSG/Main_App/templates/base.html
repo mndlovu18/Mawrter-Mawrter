@@ -12,11 +12,12 @@
 	{% block style %}{% endblock %}
 </head>
 
-<body>
+<body class="welcome-form">
 	<div>
 		<!-- Nav-bar -->
       <nav class="navbar">
-         <a class="navbar-brand p-0" href="#">BiCo Support and Guidance</a>
+         <a class="navbar-brand p-0" href="{% url 'Login'%}">Meet-A-BiCo</a>
+         <a class="navbar-brand p-0" href="{% url 'Login'%}">About Us</a>
       </nav>
 	 {% block content %}{% endblock %}
 

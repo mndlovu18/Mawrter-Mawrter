@@ -21,6 +21,7 @@
 	color: #14A098;
 	margin-left: 25px;
 	font-weight: 700;
+	float: left;
 }
 /*--------------------------------------------------------------
 # Feature-box
@@ -186,18 +187,22 @@
 	color: #fff;
 	font-size: 20px;
 }
+
+.welcome p {
+	font-size: 30px;
+	color: #fff;
+
+}
 .welcome h1 {
 	font-size: 50px;
 	color: #fff;
+	text-decoration: none;
 }
 
-.welcome p {
+.welcome .option a{
 	font-size: 25px;
 	color: #14A098;
-}
-form .checkbox .option{
-      display: inline-block;
-	  max-width: 150px;
+	text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -239,4 +244,29 @@ form .checkbox .option{
 
 .prev ion-icon {
 	color: black;
+}
+
+.submit-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+	color: #14A098;
+}
+
+.submit-btn a {
+	text-decoration: none;
+	color: #14A098;
+	font-size: 30px;
+}
+
+/*--------------------------------------------------------------
+# Thank-you
+--------------------------------------------------------------*/
+.closing {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
