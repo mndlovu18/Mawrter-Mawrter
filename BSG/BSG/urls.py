@@ -24,6 +24,7 @@ urlpatterns = [
 	path('mentor_cont/', views.Mentor_continued, name='Mentor_continued'),
 	path('mentee/', views.Mentee, name="Mentee"),
 	path('mentee_cont/', views.Mentee_continued, name="Mentee_continued"),
-	path('thank_you/', views.Thank_you, name="Thank_you")
+	path('thank_you/', views.Thank_you, name="Thank_you"),
+	path('about/', views.About, name="About"),
 	
 ]

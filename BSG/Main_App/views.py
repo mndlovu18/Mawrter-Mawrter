@@ -26,6 +26,9 @@ def Mentee_continued(request):
 
 def Thank_you(request):
 	return render(request, 'thank_you.html')
+
+def About(request):
+	return render(request, 'about.html')
 	
 	
 		

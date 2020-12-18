@@ -10,7 +10,7 @@
 	background: #501F3A;
 }
 /*--------------------------------------------------------------
-# Feature-box
+# Nav-bar
 --------------------------------------------------------------*/
 .navbar {
 	background: #0F292F;
@@ -22,6 +22,20 @@
 	margin-left: 25px;
 	font-weight: 700;
 	float: left;
+}
+
+/*--------------------------------------------------------------
+# About-Us
+--------------------------------------------------------------*/
+.about {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.about h1{
+	color: #14A098;
 }
 /*--------------------------------------------------------------
 # Feature-box
@@ -180,7 +194,7 @@
 }
 
 /*--------------------------------------------------------------
-# Check-box
+# Welcome
 --------------------------------------------------------------*/
 .welcome-form {
 	background: #501F3A;
@@ -195,14 +209,18 @@
 }
 .welcome h1 {
 	font-size: 50px;
-	color: #fff;
+	color: #14A098;
 	text-decoration: none;
 }
 
 .welcome .option a{
 	font-size: 25px;
-	color: #14A098;
+	color: #fff;
 	text-decoration: none;
+}
+
+.welcome .option ion-icon {
+	color: #CB2D6F;
 }
 
 /*--------------------------------------------------------------
@@ -248,7 +266,7 @@
 
 .submit-btn {
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-decoration: none;
@@ -269,4 +287,8 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.closing p {
+	font-size: 25px;
 }
